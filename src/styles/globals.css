@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #000000;
+    --primary-foreground: #ffffff;
+
+    --secondary: #079bee;
+
+    /* Background colors - Used for page and content backgrounds */
+    --background: #ffffff; /* Main page background color */
+    --background-foreground: #eeeeee; /* Main page text color */
+    --background-oval: #e3fcff;
+    --background-partners: #f6f6f6;
+
+    --border: #c4c4c4;
+    --border-foreground: #afafaf;
+
+    --description: #757575;
+
+    --placeholder: #545454;
+
+    --radius: 8px;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-primary;
+  }
+}
+
+.spacing-x-container {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+@media (max-width: 1366.1px) {
+  .spacing-x-container {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+@media (max-width: 1024.1px) {
+  .spacing-x-container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media (max-width: 991.1px) {
+  .spacing-x-container {
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+}
+
+@media (max-width: 768.1px) {
+  .spacing-x-container {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 576.1px) {
+  .spacing-x-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.max-w-container {
+  max-width: 1760px;
+  margin: 0 auto;
+}
+
+/* html body[data-scroll-locked] {
+  margin-right: 0 !important;
+  overflow: auto !important;
+} */
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
