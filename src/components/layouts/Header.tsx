@@ -110,7 +110,6 @@ function Header() {
             isScrolled && "[&_svg]:w-16 [&_svg]:h-fit [&_svg]:text-primary"
           )}
         />
-
         <div className='flex items-center gap-[85px] xxxlMax:gap-20 xxlMax:gap-16 xlMax:gap-14 lgMax:gap-10'>
           {headerMenus?.map((menu) => (
             <Typography
