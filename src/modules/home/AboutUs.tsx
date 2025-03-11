@@ -1,8 +1,8 @@
 import React from "react";
-import { useTranslation } from "next-i18next";
-import { useInView } from "react-intersection-observer";
 import Image from "next/image";
 import CountUp from "react-countup";
+import { useTranslation } from "next-i18next";
+import { useInView } from "react-intersection-observer";
 
 import { aboutUsDescriptions } from "@/helpers/data/home";
 import { COUNT_GAMES, COUNT_USERS } from "@/settings/constants";

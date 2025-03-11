@@ -105,9 +105,8 @@ function Header() {
         <ReactSVG
           src={companyLogo?.src}
           className={cn(
-            "transition-all duration-300",
-            isScrolled ? "w-20 h-12" : "w-28 h-16",
-            isScrolled && "[&_svg]:w-16 [&_svg]:h-fit [&_svg]:text-primary"
+            "transition-all duration-300 w-28 h-16",
+            isScrolled && "w-20 h-14 [&_svg]:w-16 [&_svg]:text-primary"
           )}
         />
         <div className='flex items-center gap-[85px] xxxlMax:gap-20 xxlMax:gap-16 xlMax:gap-14 lgMax:gap-10'>
@@ -270,9 +269,11 @@ function Header() {
               </div>
               <div className='flex flex-col'>
                 {headerMenus?.map((menu) => (
-                  <div className='flex items-center justify-center py-10 border-b border-background-foreground'>
+                  <div
+                    className='flex items-center justify-center py-10 border-b border-background-foreground'
+                    key={`menu-${menu?.key}`}
+                  >
                     <Typography
-                      key={`header-menu-${menu?.key}`}
                       fontWeight='bold'
                       color='primary'
                       className="uppercase cursor-pointer w-fit group relative before:absolute before:-bottom-1 before:left-1/2 before:h-[2px] before:w-0 before:bg-primary before:transition-all before:duration-300 before:ease-out before:content-[''] hover:before:left-0 hover:before:w-full"

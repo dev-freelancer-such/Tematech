@@ -49,9 +49,13 @@ function OurPartners() {
                 .map((partner, index) => (
                   <CarouselItem
                     key={`partner-${index}-${partner.id}`}
-                    className='pl-1 basis-1/5 mdMax:basis-1/2 xlMax:basis-1/3'
+                    className='pl-1 basis-1/5 mdMax:basis-1/2 xlMax:basis-1/3 mdMax:mr-4'
                   >
-                    <Image src={partner?.logo} alt='partner' />
+                    <Image
+                      src={partner?.logo}
+                      alt='partner'
+                      className='mdMax:w-48 mdMax:h-20 object-cover'
+                    />
                   </CarouselItem>
                 ))}
             </CarouselContent>
