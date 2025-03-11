@@ -2,6 +2,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+<img width="1440" alt="Screenshot 2025-03-11 at 8 06 05 AM" src="https://github.com/user-attachments/assets/d2060909-1ec1-4cbe-971b-d948938201aa" />
+<img width="1440" alt="Screenshot 2025-03-11 at 8 06 04 AM" src="https://github.com/user-attachments/assets/6f53dc5a-e706-4af3-b066-b0b8d9079659" />
+<img width="1440" alt="Screenshot 2025-03-11 at 8 06 02 AM" src="https://github.com/user-attachments/assets/f9f30085-5593-400c-9cad-02b5ed7da09a" />
+<img width="1440" alt="Screenshot 2025-03-11 at 8 05 57 AM" src="https://github.com/user-attachments/assets/ec287c24-3eda-4b37-a789-dea2d5988cf7" />
+<img width="1440" alt="Screenshot 2025-03-11 at 8 05 44 AM" src="https://github.com/user-attachments/assets/831a87bb-47fb-41e1-99b3-5a0f8e346522" />
+<img width="1440" alt="Screenshot 2025-03-11 at 8 05 42 AM" src="https://github.com/user-attachments/assets/994383b2-91b4-4627-905a-545c21cddbac" />
+<img width="1440" alt="Screenshot 2025-03-11 at 8 05 39 AM" src="https://github.com/user-attachments/assets/e08d62a8-78af-498d-a0ae-060835bdde38" />
+<img width="1440" alt="Screenshot 2025-03-11 at 8 05 37 AM" src="https://github.com/user-attachments/assets/87684c7f-ad40-4e7f-8769-541ad57f5371" />
+<img width="1440" alt="Screenshot 2025-03-11 at 8 05 34 AM" src="https://github.com/user-attachments/assets/ba5f6c2f-6376-46ae-b581-38485d67c678" />
+
 First, run the development server:
 
 ```bash
