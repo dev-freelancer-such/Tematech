@@ -79,6 +79,7 @@ function Header() {
 
   function handleChangeLang(lang: string) {
     router.push(router.asPath, router.asPath, { locale: lang });
+    setIsOpenLang(false);
   }
 
   function handleToggleMenuMobile() {
@@ -132,7 +133,7 @@ function Header() {
 
           {/* Change lang */}
           <div className='mdMax:hidden'>
-            <DropdownMenu onOpenChange={handleOpenChangLang}>
+            <DropdownMenu open={isOpenLang} onOpenChange={handleOpenChangLang}>
               <DropdownMenuTrigger className='border-none focus:outline-none'>
                 {renderFlag}
               </DropdownMenuTrigger>
@@ -200,7 +201,10 @@ function Header() {
               )}
             >
               <div className={cn("flex justify-between items-center")}>
-                <DropdownMenu onOpenChange={handleOpenChangLang}>
+                <DropdownMenu
+                  onOpenChange={handleOpenChangLang}
+                  open={isOpenLang}
+                >
                   <DropdownMenuTrigger className='border focus:outline-none border-border-foreground px-3 rounded-lg bg-background-partners'>
                     <div className='flex items-center gap-2 py-1'>
                       <Image
