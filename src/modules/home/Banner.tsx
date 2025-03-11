@@ -149,11 +149,11 @@ function Banner() {
                 <Typography
                   variant='h4'
                   textAlign='center'
-                  dangerouslySetInnerHTML={{
-                    __html: t("banner.we_will_back_to_something"),
-                  }}
-                  className='mb-8 mdMax:mb-4'
-                />
+                  className='mb-8 mdMax:mb-4 max-w-[560px]'
+                >
+                  {t("banner.we_will_back_to_something")}
+                </Typography>
+
                 <Input
                   placeholder={t("banner.enter_your_email")}
                   suffixIcon={
